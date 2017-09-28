@@ -35,7 +35,6 @@
                 option2.text = ">="
                 option3.text = "=";
                 input.appendChild(option1);
-                
                 input.appendChild(option2);
                 input.appendChild(option3);
                 input.style.width = "40px";
@@ -47,6 +46,7 @@
                 input.placeholder = "0";
                 input.type = "number";
                 input.required = "on";
+                input.value = "2";
                 td.appendChild(input);
             }
             tr.appendChild(td);
