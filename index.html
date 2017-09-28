@@ -1,0 +1,66 @@
+@model SymplM.Alg
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>
+            Symplex
+        </title>
+    </head>
+<body>
+    <div>
+
+        Please choose number of variables
+        <select id="Variables" name="Variables" onchange="variablesInd()">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        and number of condition
+        <select id="Conditions" name="Conditions" onchange="conditionInd()">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+
+
+        <table id="TableVar">
+            <thead>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <select id="minmax">
+            <option value="1">max</option>
+            <option value="2">min</option>
+        </select>
+
+        <table id="TableCond">
+            <thead>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        
+        <input type="submit" value="Submit" onclick="getvar()" />
+    </div>
+    </body>
+</html>
+
+</body>
