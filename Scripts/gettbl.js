@@ -148,7 +148,7 @@ function Mmethod() {
     var dv = document.getElementById("ForTable");
     if (dv != null)
         document.body.replaceChild(div, dv);
-    else document.bode.appendChild(div);
+    else document.body.appendChild(div);
 }
 
 
