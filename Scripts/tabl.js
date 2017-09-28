@@ -72,7 +72,6 @@ function variablesInd() {
                 input.placeholder = "0";
                 input.type = "number";
                 input.required = "on";
-                input.value = 2;
                 td.appendChild(input);
                 tr.appendChild(td);
             }
